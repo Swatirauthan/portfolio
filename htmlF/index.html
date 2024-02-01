@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/cssF/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4cd8aadade.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--<img src="/img/coding.png" alt="background" class="bgimg">-->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!--<img src="/img/Laptop1.png" alt="navimg" class="logo">-->
+          <h1 class="logo">SWATI RAUTHAN</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi, I'm <span>Swati</span> <br />Rauthan from Ludiana, Punjab</h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/img/laptop2.png" alt="img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello, My name is Swati Rauthan. I'm 22th by age. I'm from
+              Ludhiana, Punjab, India. I'm pursuing BTech in Information
+              Technology from Gulzar Group of Institutes khanna, Punjab. I've
+              interest on web developement, So as per my interest I've Skills on
+              HTML, CSS, JavaScript.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+              <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+            </div>
+            <div class="tab-contents active-tab heading-skills" id="Skills">
+              <ul>
+                <h3 class="heading">Technical Skills</h3>
+                <li><span>HTML</span><br />Use for Structure of Web Page</li>
+                <li><span>CSS</span><br />Use for Styling of Web Page</li>
+                <li>
+                  <span>JavaScript</span><br />Use to Create a dynamic web pages
+                </li>
+                <li><span></span><br /></li>
+              </ul>
+              <ul>
+                <h3 class="heading">Personal Skills</h3>
+                <li>
+                  <span>Communication Skills</span><br />Use straight forward
+                  language to avoid confusion.
+                </li>
+                <li>
+                  <span>Leadership Skills</span> <br />Have a clear vision for
+                  the team or project.
+                </li>
+                <li>
+                  <span>Time Management</span><br />Identify and prioritize
+                  tasks based on importance and deadlines.
+                </li>
+                <li>
+                  <span>Self Confidence</span><br />Be patient with yourself and
+                  celebrate the progress you make along the way.
+                </li>
+                <li>
+                  <span>Quick Learner</span><br />Be open to modifying plans
+                  when circumstances require it.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2021-2024</span><br />BTech (Information Technology)
+                  from Gulzar Group Of Institutes, Khanna, Punjab.
+                </li>
+                <li>
+                  <span>2019-2021</span><br />Diploma from SRS G.P.College,LDH,
+                  Punjab
+                </li>
+                <li>
+                  <span>2017-2019</span><br />12th from Shaheed-e-Azam
+                  S.T.G.G.S.S.School, Punjab
+                </li>
+                <li><span>2017</span><br />10th from G.I.C. Uttarakhand</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Projects">
+              <ul>
+                <li>
+                  <span>Pet's Care Website</span><br />● The Pet's Care website
+                  is provide a user-friendly interface to automate the process
+                  of serving towards the welfare of the pets by giving the
+                  abandoned pets a place of shelter and care them with
+                  affection.
+                </li>
+                <li>
+                  <span>Virtual Voice Assistant</span><br />● The virtual voice
+                  Assistan
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend developement</h2>
+            <p>
+              Frontend developement is the part of web application developement.
+              In Frontend developement we can use HTML, CSS, JavaScripts and the
+              js library such as React.js and framework such as angular.js, node.js etc. For
+              Frontend we can also use PHP. PHP is used for both server side and
+              client side but the javascript only use for the client side
+              programming.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------portfolio--------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/img/laptop2.png" alt="work" />
+            <div class="layer">
+              <h3>Pet's care website</h3>
+              <p>
+                The web applicaiton connects you to the pet's around the world.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/Laptop3.png" alt="work" />
+          </div>
+          <div class="work">
+            <img src="/img/laptop1.png" alt="work" />
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!---------contact--------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> rauthanswati78@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 91159-69180</p>
+            <div class="social-icons">
+              <a href="www.linkedin.com/in/swati-rauthan-3424a5225"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/SwatiRauthan04"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/swati_rauthan_02/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="/img/Swati CV.pdf_.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="yourname" required>
+              <input type="email" name="Email" placeholder="your email" required>
+              <textarea name="Message" cols="30" rows="10" placeholder="your message" ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; &par; Swati 2024</p>
+      </div>
+    </div>
+    <script src="/jsF/script.js" lang="JavaScript"></script>
+  </body>
+</html>
